@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Start.css">
+    <link rel="icon" href="mainlogo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>Gaming launch </title>
+    <style></style>
+</head>
+<body>
+
+    <div id="menu">
+        <button onclick="gotoHome()" id="home">🏠︎</button>
+        <button id="loginButton">Sign in</button>
+        <button id="logoutButton" style="display:none;">Log out</button>
+        <div id="usernameDisplay" style="display:none;"></div>
+
+        <div id="usernameInput" style="display:none;">
+            <label for="username">Benutzername: </label>
+            <input type="text" id="username" placeholder="Username">
+            <button id="submitUsername">Bestätigen</button>
+        </div>
+    </div>
+
+    <h1>Welcome to Gaming Launch</h1>
+    <button onclick="gotoTetris()" id="TetrisButton"><img src="tetris.png" id="TetrisImg">Tetris</button>
+    <button onclick="gotoPong()" id="PongButton"><img src="mainlogo.png" id="pongimg">Pong</button>
+
+
+    
+    
+    <script src="script.js"></script>
+
+    <div id="copyright"> 
+    <a href="#">Copyright by GHGcraft and EPAXGAMING ©</a>
+    <p >Coded by GHGcraft and EPAXGAMING</p>
+    </div>
+
+    
+   
+
+
+</body>
+</html>
