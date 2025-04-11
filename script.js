@@ -35,8 +35,9 @@ function gotoTetris() {
 }
 
 function gotoHome() {
-    window.location.href = "Start.html";
+    window.location.replace("index.html");
 }
+
 function gotoPong() {
     window.location.href = "Pong.html";
 }
